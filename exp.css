@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.project {
+    position: relative;
+    background: #0A192F;
+    height: 300vh;
+    width: 100%;
+    color: #CCD6F6;
+    line-height: 42px;
+    word-spacing: 0;
+}
+
+.nav {
+    height: 7%;
+}
+
+.main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.head {
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+    font-size: 29px;
+    font-weight: 500;
+    position: relative;
+}
+
+.head::before {
+    font-family: Calibre, "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-weight: 400;
+    font-size: 30px;
+    content: '03.';
+    color: #58E0C3;
+}
+
+.head::after {
+    content: '';
+    position: absolute;
+    top: 52%;
+    border-bottom: 1px solid #CCD6F6;
+    margin-left: 25px;
+    padding-left: 30%;
+}
+
+.content {
+    margin-top: 5%;
+}
+
+.info {
+    position: absolute;
+    right: 15%;
+    top: 12%;
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+    ;
+}
+
+.pname {
+    position: relative;
+    border-radius: 5px;
+    margin-left: 40%;
+    font-size: 25px;
+    font-weight: 600;
+    color: #CCD6F6;
+    text-decoration: none;
+    transition: all ease-in-out 0.6s;
+}
+
+.pname:hover {
+    cursor: pointer;
+    color: #3ff57cc4;
+    text-decoration: none;
+    transition: all ease-in-out 0.6s;
+}
+
+.pname::before {
+    font-family: Calibre, "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-weight: 400;
+    font-size: 22px;
+    content: '01.';
+    color: #58E0C3;
+}
+
+.ddetails {
+    background-color: #172A45;
+    margin-top: 8%;
+    box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+    color: rgb(168, 178, 209);
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 25px;
+}
+
+img {
+    height: 15%;
+    box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+    width: 46%;
+    border-radius: 7px;
+    object-fit: cover;
+    background: #04dd4c;
+    opacity: .7;
+    object-position: center center;
+    transition: all ease .6s;
+}
+
+img:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: all ease .6s;
+}
+
+.p2 {
+    position: relative;
+    margin-top: 100px;
+}
+
+.info2 {
+    position: absolute;
+    right: 25%;
+    top: 12%;
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+    ;
+}
+
+.pname2 {
+    position: absolute;
+    left: 60%;
+    width: 300px;
+    border-radius: 5px;
+    margin-top: -40px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #CCD6F6;
+    text-decoration: none;
+    transition: all ease-in-out 0.6s;
+}
+
+.pname2:hover {
+    cursor: pointer;
+    color: #3ff57cc4;
+    text-decoration: none;
+    transition: all ease-in-out 0.6s;
+}
+
+.pname2::before {
+    font-family: Calibre, "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-weight: 400;
+    font-size: 22px;
+    content: '02.';
+    color: #58E0C3;
+}
+
+.ddetails2 {
+    position: relative;
+    left: 15%;
+    margin-top: 10%;
+    background-color: #172A45;
+    box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+    color: rgb(168, 178, 209);
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 25px;
+}
+
+.p3 {
+    position: relative;
+    margin-top: 100px;
+}
+
+.info3 {
+    position: absolute;
+    right: 22%;
+    top: 12%;
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+    ;
+}
+
+.pname3 {
+    position: absolute;
+    left: 60%;
+    width: 400px;
+    border-radius: 5px;
+    margin-top: -40px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #CCD6F6;
+    text-decoration: none;
+    transition: all ease-in-out 0.6s;
+}
+
+.pname3:hover {
+    cursor: pointer;
+    color: #3ff57cc4;
+    text-decoration: none;
+    transition: all ease-in-out 0.6s;
+}
+
+.pname3::before {
+    font-family: Calibre, "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-weight: 400;
+    font-size: 22px;
+    content: '03.';
+    color: #58E0C3;
+}
+
+.ddetails3 {
+    position: relative;
+    left: 15%;
+    margin-top: 10%;
+    background-color: #172A45;
+    box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+    color: rgb(168, 178, 209);
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 25px;
+}
+
+.more {
+    font-family: 'Pangolin', cursive;
+    color: rgb(168, 178, 209);
+    font-size: 21px;
+    font-weight: 300;
+    margin-top: 10%;
+    margin-left: 25%;
+}

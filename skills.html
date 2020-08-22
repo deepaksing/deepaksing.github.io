@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="skills.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap">
+    <title>Skills</title>
+</head>
+<body>
+    <div class="sssk">
+        <div class="skill">
+            <div class="buttons">
+                <div class="greenn kkr"></div>
+                <div class="orangee kkr"></div>
+                <a class="redd kkr" href="index.html#">
+
+                </a>
+            </div>
+            <h1 class="skills">SKILLS</h1>
+            <p>
+                Hi!👋 My name is <span>Deepak Singh</span>
+                😎,I am a student in 3rd year.<br>
+                These are  the technologies that i am familiar with. <br>
+                 I have rated them according to how much i use them,<br/> and my experience with these technologies.<br>
+            </p>
+    
+
+            <div class="skiller">
+                
+                <div class="c">
+                    
+                    C++😍
+                    <div class="barc">
+                        <div class="barcw"></div>
+                    </div>
+                    
+                </div>
+    
+                <div class="pyth">
+                    Python🤩
+                    <div class="barp">
+                        <div class="barpw"></div>
+                    </div>
+                </div>
+                
+                <div class="htm">
+                    Html😎
+                    <div class="barh">
+                        <div class="barhw"></div>
+                    </div>
+                </div>
+    
+                <div class="csss">
+                    Css😻
+                    <div class="barcs">
+                        <div class="barcsw"></div>
+                    </div>
+                </div>
+    
+                <div class="javs">
+                    Javascript🐱‍👤
+                    <div class="barj">
+                        <div class="barjw"></div>
+                    </div>
+                </div>
+    
+                <div class="reac">
+                    React.js🤑
+                    <div class="barr">
+                        <div class="barrw"></div>
+                    </div>
+                </div>
+    
+                <div class="p5">
+                    p5.js😁
+                    <div class="barp5">
+                        <div class="barp5w"></div>
+                    </div>
+                </div>
+                   
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/ScrollTrigger.min.js"></script>
+    
+    <script>
+
+        let ts = gsap.timeline();
+
+        ts.fromTo('.skill', {y:'-40'}, {y:'0'})
+        ts.fromTo('.skills', {x:'-70', opacity:0}, {x:'0', opacity:1, duration:1})
+
+
+        let tl = gsap.timeline();
+        tl.fromTo(".barcw",{width:'0'}, {width:'390px', duration:1.7})
+
+        let t2 = gsap.timeline();
+        t2.fromTo(".barpw",{width:'0'}, {width:'380px', duration:1.3})
+
+        let t3 = gsap.timeline();
+        t3.fromTo(".barhw",{width:'0'}, {width:'400px', duration:1.4})
+
+        let t4 = gsap.timeline();
+        t4.fromTo(".barcsw",{width:'0'}, {width:'370px', duration:1.7})
+
+        let t5 = gsap.timeline();
+        t5.fromTo(".barjw",{width:'0'}, {width:'340px', duration:1.3})
+
+        let t6 = gsap.timeline();
+        t6.fromTo(".barrw",{width:'0'}, {width:'380px', duration:1.4})
+
+        let t7 = gsap.timeline();
+        t7.fromTo(".barp5w",{width:'0'}, {width:'310px', duration:1.5})
+
+    </script>
+
+</body>
+</html>

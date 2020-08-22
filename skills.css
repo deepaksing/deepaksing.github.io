@@ -1,0 +1,214 @@
+body{
+    
+    font-family: 'Roboto Mono', monospace;
+    color: white;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+.skill {
+    display: inline-block;
+    position: relative;
+    padding: 20px 20px 90px;
+    background: #17181d;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+                -5px -5px 15px rgba(0, 0, 0, 0.5);
+
+    transition: all linear 600ms;
+}
+
+
+.buttons {
+    display: flex;
+    position: absolute;
+    right: 4%;
+    top: 2%;
+    }
+    
+    .kkr {
+        margin: 4px;
+    }
+    
+    .greenn {
+        height: 14px;
+        width: 14px;
+        background: #2AC339;
+        border-radius: 50%;
+    }
+    
+    .orangee {
+        height: 14px;
+        width: 14px;
+        background: #FFBE32;
+        border-radius: 50%;
+    }
+    
+    .redd {
+        height: 14px;
+        width: 14px;
+        background: #FF5D5C;
+        border-radius: 50%;
+    }
+
+.buttons div:hover , a:hover {
+    cursor: pointer;
+}
+
+h1.skills {
+    color: #fff031;
+    font: 55px "IBM Plex Mono", monospace;
+    line-height:72px;
+    font-weight: 700;
+}
+
+.skill p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.skiller {
+    margin-left: 13%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+}
+
+.skiller div {
+    margin: 4px;
+}
+
+.barc {
+    height: 10px;
+    width: 400px;
+    margin: 5px 12px;
+    position: relative;
+    border-radius: 4px;
+    background: #373a49;
+}
+
+.barcw {
+    left: -3px;
+    top: -4px;
+    border-radius: 4px;
+    position: absolute;
+    background: #e5d7d7;
+    height: 10px;
+    width: 390px;
+}
+
+.barp {
+    height: 10px;
+    width: 400px;
+    margin: 5px 12px;
+    position: relative;
+    border-radius: 4px;
+    background: #373a49;
+}
+
+.barpw {
+    left: -3px;
+    top: -4px;
+    border-radius: 4px;
+    position: absolute;
+    background: #e5d7d7;
+    height: 10px;}
+
+.barh {
+    height: 10px;
+    width: 400px;
+    margin: 5px 12px;
+    position: relative;
+    border-radius: 4px;
+    background: #373a49;
+}
+
+.barhw {
+    left: -3px;
+    top: -4px;
+    border-radius: 4px;
+    position: absolute;
+    background: #e5d7d7;
+    height: 10px;
+}
+
+.barcs {
+    height: 10px;
+    width: 400px;
+    margin: 5px 12px;
+    position: relative;
+    border-radius: 4px;
+    background: #373a49;
+}
+
+.barcsw {
+    left: -3px;
+    top: -4px;
+    border-radius: 4px;
+    position: absolute;
+    background: #e5d7d7;
+    height: 10px;
+}
+
+.barj {
+    height: 10px;
+    width: 400px;
+    margin: 5px 12px;
+    position: relative;
+    border-radius: 4px;
+    background: #373a49;
+}
+
+.barjw {
+    left: -3px;
+    top: -4px;
+    border-radius: 4px;
+    position: absolute;
+    background: #e5d7d7;
+    height: 10px;
+}
+.barr {
+    height: 10px;
+    width: 400px;
+    margin: 5px 12px;
+    position: relative;
+    border-radius: 4px;
+    background: #373a49;
+}
+
+.barrw {
+    left: -3px;
+    top: -4px;
+    border-radius: 4px;
+    position: absolute;
+    background: #e5d7d7;
+    height: 10px;
+}
+
+.barp5 {
+    height: 10px;
+    width: 400px;
+    margin: 5px 12px;
+    position: relative;
+    border-radius: 4px;
+    background: #373a49;
+}
+
+.barp5w {
+    left: -3px;
+    top: -4px;
+    border-radius: 4px;
+    position: absolute;
+    background: #e5d7d7;
+    height: 10px;
+}
+    
