@@ -298,13 +298,6 @@ header.sticky li a {
     transition: all ease-in-out 600ms;
 }
 
-#navigation__1 ul li:hover {
-    cursor: pointer;
-    margin-left: 70px;
-    -webkit-transition: all ease-in-out 600ms;
-    transition: all ease-in-out 600ms;
-}
-
 .nav_icon_2 {
     font-size: 24px;
     color: white;
